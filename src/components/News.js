@@ -104,30 +104,6 @@ export class News extends Component {
           </div>
         </InfiniteScroll>
 
-        {/* <div className="my-4 d-flex justify-content-center">
-          <button
-            onClick={this.handlePerClick}
-            disabled={this.state.page <= 1}
-            rel="noreferrer"
-            target="_blank"
-            className="btn btn-sm btn-warning mx-2"
-          >
-            &larr; Previous
-          </button>
-          <button
-            disabled={
-              this.state.page + 1 >
-              Math.ceil(this.state.totalResults / this.props.pageSize)
-            }
-            onClick={this.handleNextClick}
-            rel="noreferrer"
-            target="_blank"
-            className="btn btn-sm btn-warning"
-          >
-            Next &rarr;
-          </button>
-        </div> */}
-
       </>
     );
   }
